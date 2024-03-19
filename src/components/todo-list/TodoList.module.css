@@ -1,0 +1,28 @@
+.todolist_container {
+  width: 80%;
+  margin: 10px auto;
+  /* background-color: lightblue; */
+}
+.todolist_header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.todo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.search-input {
+  padding: 8px 16px;
+  border-radius: 10px;
+  /* border: 2px solid black; */
+  font-size: large;
+}
+.sort-todos {
+  padding: 8px 16px;
+  border-radius: 10px;
+  /* border: 2px solid black; */
+  font-size: medium;
+}

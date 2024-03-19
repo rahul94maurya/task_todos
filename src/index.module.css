@@ -1,0 +1,14 @@
+:root {
+  primary_color: rgba(4, 244, 236, 0.477);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.icon-size {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.container {
+  padding: 10px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* box-shadow: 5px 10px blue; */
+}
+.todo-description {
+  margin-bottom: 5px;
+}
+.todo-information-container {
+  width: 70%;
+}
+.todo-title {
+  font-size: large;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.status {
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  color: aliceblue;
+}
+.status-completed {
+  background-color: rgb(4, 146, 4);
+}
+.status-not-started {
+  background-color: rgb(252, 11, 11);
+}
+.status-in-progress {
+  background-color: rgb(224, 158, 5);
+}
